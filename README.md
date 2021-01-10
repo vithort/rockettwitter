@@ -2,6 +2,10 @@
 
 Iniciando com AdonisJS, um framework completo para NodeJS
 
+# Referência
+
+Link: [Iniciando com AdonisJS, um framework completo para NodeJS]('https://www.youtube.com/watch?v=aysgHRmzG3w')
+
 # Instalar o Cli do Adonis
 
 ```npm
@@ -40,4 +44,29 @@ adonis migration:run
 
 ```npm
 adonis make:controller Auth
+```
+
+# Referência
+
+Link: [CRUD e relacionamentos no AdonisJS]('https://www.youtube.com/watch?v=ESIQ6gWV80Y')
+
+# Criando Modelo Tweet
+
+```npm
+adonis make:model Tweet -m -c
+```
+
+- `-m`: cria o migration
+- `-c`: cria o controller
+
+# Executar Migrations
+
+```npm
+adonis migration:run
+```
+
+# Listar Rotas
+
+```npm
+adonis route:list
 ```
